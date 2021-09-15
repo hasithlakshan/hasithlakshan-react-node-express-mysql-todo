@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+###Task management
+
+    1. Back-end setup
+
+	Technologies
+    • mysql
+    • node js
+	
+	to set up
+    • redirect to Todo-app-backend
+    • run the Mysql database
+    • import the attached file to config the database
+    • npm install
+    • npm start
+
+    2. Front-end setup
+
+	Technologies
+    • React
+	
+	to set up
+    • Todo-app-frontend
+    • npm install
+    • npm start
