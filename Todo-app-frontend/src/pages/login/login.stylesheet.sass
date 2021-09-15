@@ -1,0 +1,39 @@
+@import "../../vars"
+.login-container
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  height: 100vh
+  background: $background
+  justify-content: center
+  font-family: 'Avenir Next'
+  &__wrapper
+    border-radius: 20px
+    padding: 50px 30px
+    width: 500px
+    height: 520px
+    box-shadow: 5px -5px 50px $ash-grey
+    background: $white
+    display: flex
+    flex-direction: column
+    &__login-title
+      padding-bottom: 20px
+      background: $white
+      font-size: 24px
+      font-weight: 600
+      text-align: center
+    &__input-fields
+      padding: 50px 0
+      display: flex
+      flex-direction: column
+    &__button
+      border-radius: 5px
+      height: 40px
+    &__register-label
+      padding-top: 10px
+      text-align: center
+    &__register
+      display: flex
+      flex-direction: column
+      align-items: center
