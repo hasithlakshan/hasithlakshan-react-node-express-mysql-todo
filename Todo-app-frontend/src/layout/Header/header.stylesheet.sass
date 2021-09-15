@@ -1,0 +1,35 @@
+@import "../../vars"
+.mainContainer
+  width: 100%
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  background-color: $white
+  align-items: center
+  border-top: 2px solid $ash-grey
+  border-bottom: 2px solid $background
+  &__bars
+    background-color: $white
+    border-right: 2px solid $background
+    padding: 15px 20px
+    &__icon
+      color: $ash-grey
+  &__content
+    display: flex
+    width: 100%
+    padding: 20px 30px
+    color: $ash-grey
+    font-weight: 600
+  &__profile
+    display: flex
+    flex-direction: row
+    align-items: center
+    &__name
+      font-size: 10px
+      padding: 10px
+  &__sign-out
+    background-color: $white
+    border-left: 2px solid $background
+    padding: 15px 20px
+    &__icon
+      color: $ash-grey

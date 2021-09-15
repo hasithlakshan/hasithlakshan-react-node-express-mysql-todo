@@ -1,0 +1,44 @@
+@import "../../vars"
+.home-container
+  display: flex
+  flex-direction: column
+  height: 100vh
+  background: $background
+  font-family: 'Avenir Next'
+  align-items: center
+  &__title-wrapper
+    width: 100%
+    background-color: $white !important
+    padding: 20px 0
+    align-items: center
+    display: flex
+    justify-content: center
+    box-shadow: 1px 5px 5px $gray-white
+    &__title
+      font-size: 24px
+      font-weight: 600
+  &__content-wrapper
+    width: 80%
+    // min-width: 600px
+    background-color: $white
+    margin-top: 70px
+    display: flex
+    flex-direction: column
+    flex-wrap: nowrap
+    box-shadow: -2px 5px 25px $gainsboro
+    &__header-wrapper
+      padding: 20px 30px
+      border-bottom: 2px solid $background
+      display: flex
+      justify-content: space-between
+      align-item : center
+      &__button
+        color: $white
+        background-color: $header-background
+      &__search
+        border-radius: 30px
+      &__text
+        color: $ash-grey
+        text-align: center
+.pop-up
+  margin-bottom: 20px
