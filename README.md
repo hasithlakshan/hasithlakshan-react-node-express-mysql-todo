@@ -7,7 +7,7 @@
     • mysql
     • node js
 	
-#	to set up
+#	Project set up
     • redirect to Todo-app-backend
     • run the Mysql database
     • import the attached file to config the database
@@ -19,7 +19,7 @@
 #	Technologies
     • React
 	
-#	to set up
+#	Project set up
     • Todo-app-frontend
     • npm install
     • npm start
